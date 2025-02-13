@@ -21,6 +21,5 @@ int main(void)
 		printf_s("Again? (Y/N)\n");
 		y = getchar();
 	} while (y == 'y' || y == 'Y');
-	exit(0);
 	return 0;
 }
